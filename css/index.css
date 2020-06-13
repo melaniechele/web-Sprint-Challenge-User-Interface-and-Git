@@ -226,9 +226,10 @@ footer nav a {
 
 
 .aboutop {
-    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
     border-bottom: 1px dashed black;
-
 }
 
 
@@ -258,8 +259,23 @@ footer nav a {
     border-bottom: 1px dashed black;
 }
 
+
+
 .bottomcon .secondha {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.lastbutton {
+ 
+border-radius: 20px;
+
+}
+
+.lastone {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+   
 }
