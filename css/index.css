@@ -51,6 +51,30 @@ table {
     box-sizing: border-box;
 }
 
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+.jumb {
+   display: flex;
+    justify-content: center;
+    margin:20px;
+}
+
+
+
+
+
+
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -104,13 +128,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box.boxo{
+    background-color:  teal;
+}
+.box.boxt{
+background-color:gold;
+}
+.box.boxth {
+    background-color: cadetblue;
+}
+.box.boxf {
+    background-color: coral;
+}
+.box.boxfi {
+    background-color: crimson;
+}
+.box.boxs {
+    background-color: forestgreen;
+}
+.box.boxse {
+    background-color: darkorchid;
+}
+.box.boxe {
+    background-color:hotpink ;
+}
+.box.boxn {
+    background-color:indigo ;
+}
+.box.boxte {
+    background-color: dodgerblue;
+}
+
+
+
+
+
+
+
 
 .bottom-content {
     display: flex;
