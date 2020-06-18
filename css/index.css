@@ -49,12 +49,36 @@ table {
 
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width:800px;
+    align-items: baseline;    
+}
+nav a {
+    color:black;
+}
+
+
+
+.jumb {
+   display: flex;
+    justify-content: center;
+    margin:20px;
+    
+}
+
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -99,18 +123,56 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box.boxo{
+    background-color:  teal;
+}
+.box.boxt{
+background-color:gold;
+}
+.box.boxth {
+    background-color: cadetblue;
+}
+.box.boxf {
+    background-color: coral;
+}
+.box.boxfi {
+    background-color: crimson;
+}
+.box.boxs {
+    background-color: forestgreen;
+}
+.box.boxse {
+    background-color: darkorchid;
+}
+.box.boxe {
+    background-color:hotpink ;
+}
+.box.boxn {
+    background-color:indigo ;
+}
+.box.boxte {
+    background-color: dodgerblue;
+}
+
+
+
+
+
+
+
 
 .bottom-content {
     display: flex;
@@ -129,18 +191,99 @@ p {
 footer {
     width: 100%;
     background: black;
+
 }
 
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-left: 0;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+   
+}
+
+
+
+
+
+
+
+
+
+
+/* ABOUT */
+
+
+.aboutop {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+  
+}
+
+
+
+
+
+
+.middl  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    
+}
+
+.middl .firstha {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    
+}
+
+.bottomcon  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+
+
+.bottomcon .secondha {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.lastbutton  {
+ display: flex;
+ width: 100px;
+border-radius: 10px;
+padding: 6px;
+border: 2px solid black;
+color:black;
+margin-top: 20px;
+
+
+
+}
+
+.lastone {
+    display: flex;
+    flex-direction: column;
+    margin:40px auto;
+   
+   
 }
